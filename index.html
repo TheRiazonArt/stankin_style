@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Stankin Style</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/shop.js"></script>
+  <script src="cart.js"></script>
+
+  
+
+</head>
+
+<body style="background-image: url('backgroundMain.png');">
+
+  <div class="cart" id="cart"></div>
+  <script src="cart.js"></script>
+
+  <div id="cart"></div>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Каталог</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="html/about.html">О нас</a>
+          </li>
+          <li>
+            <a href="html/services.html">Обслуживание</a>
+          </li>
+          <li>
+            <a href="html/contacts.html">Контакты</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-2" style="position:fixed; ">
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h3><a class="notchosen" href="index.html">Главная страница</a> </h3>
+        <h3><a class="notchosen" href="../Проект сайта/html/rc.html">Роллер клуб</a> </h3>
+        <h3><a class="notchosen"  href="../Проект сайта/html/ic.html">Интеллект клуб</a> </h3>
+        <h3><a class="notchosen" href="../Проект сайта/html/bc.html">Бильярд клуб</a> </h3>
+        <h3><a class="notchosen" href="../Проект сайта/html/yc.html">Йога клуб</a> </h3>
+        <h3><a class="notchosen" href="../Проект сайта/html/ac.html">Арт клуб</a> </h3>
+        <h3><a class="notchosen" href="../Проект сайта/html/nastc.html">Клуб настольных игр</a> </h3>
+        <h3><a class="notchosen" href="../Проект сайта/html/under.html">Андерграунд</a> </h3>
+        <h3><a class="notchosen" href="../Проект сайта/html/sujet.html">Сюжет</a> </h3>
+        <h3><a class="notchosen" href="../Проект сайта/html/pc.html">Подкаст клуб</a> </h3>
+        <h3><a class="notchosen" href="../Проект сайта/html/tc.html">Туристический клуб</a> </h3>
+      </div>
+    </div>
+
+      <div class="col-lg-10 col-lg-offset-4">
+
+        <div class="row carousel-holder">
+
+          <div class="col-md-12">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img class="slide-image" src="img/clubs/bc.png" alt="">
+                </div>
+                <div class="item">
+                  <img class="slide-image" src="img/clubs/rc.png" alt="">
+                </div>
+                <div class="item">
+                  <img class="slide-image" src="img/clubs/tur.png" alt="">
+                </div>
+              </div>
+              <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <h4 class="bestseller">Часто покупаемое:</h4>
+        </div>
+
+        <br>
+
+        <div class="row">
+
+          <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail">
+              <img src="img/shops/rc/tshirt.png" alt="">
+              <div class="caption">
+                <h4><a  class="shop" href="" data-toggle="modal" data-target="#FirstGoodModal">Футболка "Роллер клуб"</a> </h4>
+                <h4 class="pull-right">1.500 Руб</h4>
+                <p class="pcard">Синтетика</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail">
+              <img src="img/shops/nastol/dice1.png" alt="">
+              <div class="caption">
+                <h4><a class="shop" href="" data-toggle="modal" data-target="#SecondGoodModal">Набор кубиков "жабки"</a> </h4>
+                <h4 class="pull-right">2.000 Руб</h4>
+                <p class="pcard">7 кубиков для DnD и Pathfinder</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail">
+              <img src="img/shops/ac/blocknot1.png" alt="">
+              <div class="caption">
+                <h4><a class="shop" href="" data-toggle="modal" data-target="#ThirdGoodModal">Блокнот "Арт-клуб"</a> </h4>
+                <h4 class="pull-right">750 Руб</h4>
+                <p class="pcard">А5, 50 листов</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail">
+              <img src="img/shops/ic/tshirt.png" alt="">
+              <div class="caption">
+                <h4><a class="shop" href="" data-toggle="modal" data-target="#FourthGoodModal">Футболка "Интеллект клуб"</a> </h4>
+                <h4 class="pull-right">1.500 Руб</h4>
+                <p class="pcard">Синтетика</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail">
+              <img src="img/shops/bc/tshirt.png" alt="">
+              <div class="caption">
+                <h4><a class="shop" href="" data-toggle="modal" data-target="#FifthGoodModal">Футболка "Бильярд клуб"</a> </h4>
+                <h4 class="pull-right">1.500 Руб</h4>
+                <p class="pcard">Синтетика</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail">
+              <img src="img/shops/bc/braslet.png" alt="">
+              <div class="caption">
+                <h4><a class="shop" href="" data-toggle="modal" data-target="#SixthGoodModal">Браслет "Бильярд клуб"</a> </h4>
+                <h4 class="pull-right">150 Руб</h4>
+                <p class="pcard">Плотная резина</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!-- /.container -->
+<!-- 
+   <div class="container">
+
+    <hr>
+
+    Footer 
+    <footer>
+      <div class="row">
+        <div class="col-lg-12">
+          <p></p>
+        </div>
+      </div>
+    </footer>
+    </div>
+  -->
+
+
+
+  <div class="modal fade" id="FirstGoodModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Футболка "Роллер-клуб"</h4>
+        </div>
+        <div class="modal-body">
+          <img src="img/shops/rc/tshirt.png" style="width: 565px; height: 423px; border-radius: 20px;">
+          <p></p>
+          <p style="font-size: 20px;">Футболка из синтетического материала. Размеры XS, S, M, L, XL.</p>
+          <p style="font-size: 20px;">1.500 Руб</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <div class="modal fade" id="SecondGoodModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Набор кубиков "жабки"</h4>
+        </div>
+        <div class="modal-body">
+          <img src="img/shops/nastol/dice1.png" style="width: 565px; height: 423px; border-radius: 20px;">
+          <p></p>
+          <p style="font-size: 20px;">Набор кубиков "жабки", содержащий все стандартные кубики для игры в DnD или Pathfinder</p>
+          <p style="font-size: 20px;">2.000 Руб</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+
+  <div class="modal fade" id="ThirdGoodModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Блокнот "Арт-клуб"</h4>
+        </div>
+        <div class="modal-body">
+          <img src="img/shops/ac/blocknot1.png" style="width: 565px; height: 423px; border-radius: 20px;">
+          <p></p>
+          <p style="font-size: 20px;">Блокнот "Арт-клуб", формат А5, 50 чистых листов</p>
+          <p style="font-size: 20px;">750 Руб</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <div class="modal fade" id="FourthGoodModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Футболка "Интеллект клуб"</h4>
+        </div>
+        <div class="modal-body">
+          <img src="img/shops/ic/tshirt.png" style="width: 565px; height: 423px; border-radius: 20px;">
+          <p></p>
+          <p style="font-size: 20px;">Футболка из синтетического материала. Размеры XS, S, M, L, XL.</p>
+          <p style="font-size: 20px;">1.500 Руб</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <div class="modal fade" id="FifthGoodModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Футболка "Бильярд клуб"</h4>
+        </div>
+        <div class="modal-body">
+          <img src="img/shops/bc/tshirt.png" style="width: 565px; height: 423px; border-radius: 20px;">
+          <p></p>
+          <p style="font-size: 20px;">Футболка из синтетического материала. Размеры XS, S, M, L, XL.</p>
+          <p style="font-size: 20px;">1.500 Руб</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <div class="modal fade" id="SixthGoodModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Браслет "Бильярд клуб"</h4>
+        </div>
+        <div class="modal-body">
+          <img src="img/shops/bc/braslet.png" style="width: 565px; height: 423px; border-radius: 20px;">
+          <p></p>
+          <p style="font-size: 20px;">Браслет "Бильярд клуб" из плотной резины, диаметр 7,5см</p>
+          <p style="font-size: 20px;">150 Руб</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  
+
+</body>
+
+</html>
